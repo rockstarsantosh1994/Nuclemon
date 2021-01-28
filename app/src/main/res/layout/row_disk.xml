@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/_5sdp"
+    android:layout_marginBottom="@dimen/_5sdp"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="C:"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:id="@+id/tv_disk_name"
+        />
+
+    <com.akexorcist.roundcornerprogressbar.TextRoundCornerProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_20sdp"
+        android:id="@+id/textBoxProgressBar"
+        app:rcBackgroundColor="@color/white"
+        app:rcMax="100"
+        app:rcProgress="40"
+        app:rcReverse="false"
+        app:rcProgressColor="@color/cardUp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        app:rcTextInsideGravity="start"
+        android:layout_weight="1"
+        app:rcRadius="@dimen/_3sdp"
+        app:rcAnimationEnable="true"
+        app:rcTextPositionPriority="outside"
+        app:rcTextProgressColor="@color/black"
+        />
+
+</LinearLayout>

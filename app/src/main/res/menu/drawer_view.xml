@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/outlet"
+        android:icon="@drawable/mainmenu_home"
+        android:title="Home" />
+    <item
+        android:id="@+id/myinfo"
+        android:icon="@drawable/mainmenu_allservers"
+        android:title="All Servers" />
+    <item
+        android:id="@+id/loadouts"
+        android:icon="@drawable/mainmenu_services"
+        android:visible="false"
+        android:title="Services" />
+
+    <item
+        android:id="@+id/reprint"
+        android:icon="@drawable/mainmenu_bell"
+        android:title="Notification"
+        android:visible="false"
+        />
+
+</menu>

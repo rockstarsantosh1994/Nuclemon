@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:orientation="vertical"
+    tools:context=".fragment.DashBoardFragment">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin10"
+        android:layout_marginTop="@dimen/margin5"
+        android:layout_marginRight="@dimen/margin10"
+        android:layout_marginBottom="@dimen/margin5" />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="@dimen/margin290"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="@dimen/margin50"
+        android:layout_marginRight="@dimen/margin50"
+        android:clipChildren="false"
+        android:orientation="vertical" />
+
+
+</LinearLayout>

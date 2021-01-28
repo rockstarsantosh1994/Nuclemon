@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bottom_home"
+        android:title="@string/home"
+        android:icon="@drawable/ic_baseline_home_24"/>
+
+    <item
+        android:id="@+id/bottom_allserver"
+        android:title="@string/allserver"
+        android:icon="@drawable/footer_menu_allserver_icon"/>
+
+    <item
+        android:id="@+id/bottom_notification"
+        android:title="@string/notifications"
+        android:icon="@drawable/footer_menu_bell_icon"
+        />
+
+    <item
+        android:id="@+id/bottom_menu"
+        android:title="@string/menu"
+        android:icon="@drawable/footer_menu_menu_icon"/>
+</menu>

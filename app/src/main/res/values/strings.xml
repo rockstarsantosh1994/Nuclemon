@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Nuclemon</string>
+    <string name="sign_in">Sign In</string>
+    <string name="filldetails">Fill all details</string>
+    <string name="nointernet">"Internet not available "</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close" />
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+      <string name="disk">Disk</string>
+    <string name="home">Home</string>
+    <string name="allserver">All Server</string>
+    <string name="notifications">Notification</string>
+    <string name="menu">Menu</string>
+    <string name="name">Name:</string>
+    <string name="port">Port:</string>
+    <string name="instance_name">Instance Name:</string>
+    <string name="authentication">Authentication:</string>
+    <string name="user_name">User Name:</string>
+    <string name="last_connection_time">Last Connection Time:</string>
+    <string name="send_email">Send Email</string>
+    <string name="send_sms">Send SMS</string>
+    <string name="cpu">CPU</string>
+    <string name="memory">Memory</string>
+</resources>
